@@ -1,4 +1,5 @@
-// Import Classes Here
+// Import Classes 
+let Product = require("./classes/Product");
 let Cart = require("./classes/Cart")
 
 
