@@ -3,17 +3,14 @@ class Cart{
         this.products = []
         this.total = 0
     }
-    addProduct(){
-        this.products.push(this.products)
-        this.products.forEach(x => {
-            total += x
-        })
+    addProduct(product){
+        this.products.push(product)
+            this.total += product.price
     }
-    removeProduct(product){
-        this.products.pop()
-        this.products.forEach(x => {
-            total += x
-        })
+    removeProduct(i){
+        this.total -= this.products[i].price
+        this.products.splice(i, 1)
+            
     }
 }
 
