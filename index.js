@@ -2,6 +2,7 @@
 let Product = require("./classes/Product");
 let Cart = require("./classes/Cart");
 let Customer = require("./classes/Customer");
+let Auth = require("./classes/Auth");
 
 // DO NOT EDIT BELOW THIS LINE
 try {
