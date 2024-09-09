@@ -1,20 +1,16 @@
-class Cart{
-    constructor(products,total){
-        this.products = []
-        this.total = 0
-    }
-    addProduct(){
-        this.products.push(this.products)
-        this.products.forEach(x => {
-            total += x
-        })
-    }
-    removeProduct(product){
-        this.products.pop()
-        this.products.forEach(x => {
-            total += x
-        })
-    }
+class Cart {
+  constructor(products, total) {
+    this.products = [];
+    this.total = 0;
+  }
+  addProduct(product) {
+    this.products.push(product);
+    this.total += product.price;
+  }
+  removeProduct(i) {
+    this.total -= this.products[i].price;
+    this.products.splice(i, 1);
+  }
 }
 
-module.exports = Cart
+module.exports = Cart;
