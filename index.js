@@ -1,5 +1,5 @@
 // Import Classes Here
-
+Product = require("./classes/Product");
 
 
 
