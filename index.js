@@ -1,50 +1,35 @@
-// Import Classes 
+// Import Classes
 let Product = require("./classes/Product");
-let Cart = require("./classes/Cart")
-
-
-
-
-
-
-
-
+let Cart = require("./classes/Cart");
+let Customer = require("./classes/Customer");
 
 // DO NOT EDIT BELOW THIS LINE
 try {
-    module.exports = {
-        Product,
-    }
-} catch(e){
-
-}
+  module.exports = {
+    Product,
+  };
+} catch (e) {}
 
 try {
-    module.exports = {
-        Product,
-        Cart
-    }
-} catch(e){
-
-}
+  module.exports = {
+    Product,
+    Cart,
+  };
+} catch (e) {}
 
 try {
-    module.exports = {
-        Product,
-        Cart,
-        Customer
-    }
-} catch(e){
-
-}
+  module.exports = {
+    Product,
+    Cart,
+    Customer,
+  };
+} catch (e) {}
 
 try {
-    module.exports = {
-        Product,
-        Cart,
-        Customer,
-        Auth
-    }
-} catch(e){
-
-}
+  module.exports = {
+    Product,
+    Cart,
+    Customer,
+    Auth,
+  };
+} catch (e) {}
