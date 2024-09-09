@@ -1,3 +1,4 @@
+
 class Cart {
   constructor(products, total) {
     this.products = [];
